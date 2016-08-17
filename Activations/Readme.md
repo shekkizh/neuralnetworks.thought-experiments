@@ -103,4 +103,5 @@ Overall I believe ELu > Leaky ReLU > ReLu but all these activations perform very
 
 
 Logs for the experiments can be found inside MNIST and Cifar10 folders respectively which can be viewed using Tensorboard.
+
 *references: The images used in this markdown was borrowed from stanford cs231n notes, wikipedia, wolfram*
