@@ -87,8 +87,8 @@ While we are at it, lets look at the gradients for other activation functions as
 <img src="./Cifar10/GradientConv1Biases.png">
 
 
-notice how similar gradients for the activation functions are - this would directly reflect on to how the model is minimizing its loss objective. One can very well look at the gradients and activations and say how well they are training. If there is one core take away message in this article I would say it is 
-> # "Gradients talk"
+notice how similar gradients for the activation functions are - this would directly reflect on to how the model is minimizing its loss objective. One can very well look at the gradients and activations and say how well they are training. If there is one core take away message apart from the choice of activations in this article I would say it is 
+> ### "Gradients are key to understanding models"
 
 Looking at just the loss objective rarely gives insights into the training process. I would strongly suggest to visualize gradients and activations as an important part of training neural networks.
 
@@ -101,7 +101,7 @@ Overall I believe ELu > Leaky ReLU > ReLu but all these activations perform very
 
 
 
-
+------
 Logs for the experiments can be found inside MNIST and Cifar10 folders respectively which can be viewed using Tensorboard.
 
 *references: The images used in this markdown was borrowed from stanford cs231n notes, wikipedia, wolfram*
