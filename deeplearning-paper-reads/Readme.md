@@ -1,6 +1,10 @@
 # Deeplearning Paper Reads
 A list to keep track of interesting papers I got the chance to read.
 
+1. [ImageNet models](#imagenet-models)
+2. [Unsupervised/ Semi Supervised Learning](#unsupervised-semi-supervised-learning)
+3. [Miscellaneous](#miscellaneous)
+
 ## ImageNet models
  - [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
  - [Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
@@ -26,6 +30,7 @@ A list to keep track of interesting papers I got the chance to read.
  - [Net2Net: Accelerating Learning via Knowledge Transfer](http://arxiv.org/pdf/1511.05641v4.pdf)
  - [Deep Networks with Stochastic Depth](http://arxiv.org/pdf/1603.09382v3.pdf)
  - [Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/pdf/1605.06211v1.pdf)
+ - [Do Deep Nets Really Need to be Deep?](https://papers.nips.cc/paper/5484-do-deep-nets-really-need-to-be-deep.pdf)
  - [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://arxiv.org/pdf/1603.08155v1.pdf)
  - [Texture Networks: Feed-forward Synthesis of Textures and Stylized Images](http://arxiv.org/pdf/1603.03417v1.pdf)
  - [A Neural Algorithm of Artistic Style](http://arxiv.org/pdf/1508.06576v2.pdf)
