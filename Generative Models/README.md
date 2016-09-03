@@ -1,4 +1,8 @@
-# Introduction
+#Generative Models
+1. [Introduction](#introduction)
+2. [Experiments](#experiments)
+
+## Introduction
 Deep neural networks have found their way to wide variety of applications but only recently has the application of these networks for unsupervised and semi supervised learning leveraging large unlabeled data has been worked upon.
 
 Generative modeling is a branch of machine learning that attempts at modeling the probability distribution of high dimensional data, for example - images.  Images present themselves as high dimensional data points that are mostly correlated. Take for instance a character image specifically say digits 0-9. It is highly unlikely that given the left half of the image contains the left half of 0; the right half would contain the left half of say 5. The generative models job is to capture these kinds of dependencies between pixels. In case of images by training a model to generate images as real as possible or as close to the actual dataset as possible is a good way to capture these dependencies.
@@ -24,7 +28,7 @@ GAN are very unstable to train and so require careful selection of model activat
 ![](./images/GAN.jpg)
 <sub>[Source: Slideshare.net](http://www.slideshare.net/xavigiro/deep-learning-for-computer-vision-generative-models-and-adversarial-training-upc-2016)<sub>
 
-# Experiments
+## Experiments
 **Simple AutoEncoder**
 
 The figure below presents results obtained on MNIST using a simple auto encoder for the purpose of visualization with L2 loss between generated image and the actual image as the supervisory signal. The model is made up of 6 fully connected layers with a latent variable dimension of 3. It is interesting to notice how the network has separated the digits and formed clusters. 
@@ -50,6 +54,7 @@ Activations on mean and log variance encoder:
 ![](./logs/MNIST_VAE_logs_2/mu_logvar-gradient2.png)
  
 **Generative Adversarial Networks**
+
 GANs are such a pain to train in that they are very unstable and the training requires careful tuning of parameters - will mostly create separate notes on training GAN and it's results.
 
 -----
