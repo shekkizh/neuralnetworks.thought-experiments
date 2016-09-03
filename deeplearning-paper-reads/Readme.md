@@ -30,6 +30,7 @@ A list to keep track of interesting papers I got the chance to read.
  - [Net2Net: Accelerating Learning via Knowledge Transfer](http://arxiv.org/pdf/1511.05641v4.pdf)
  - [Deep Networks with Stochastic Depth](http://arxiv.org/pdf/1603.09382v3.pdf)
  - [Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/pdf/1605.06211v1.pdf)
+ - [Do Deep Convolutional Nets Really Need to be Deep(Or Even Convolutional)?](https://arxiv.org/pdf/1603.05691v2.pdf)
  - [Do Deep Nets Really Need to be Deep?](https://papers.nips.cc/paper/5484-do-deep-nets-really-need-to-be-deep.pdf)
  - [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://arxiv.org/pdf/1603.08155v1.pdf)
  - [Texture Networks: Feed-forward Synthesis of Textures and Stylized Images](http://arxiv.org/pdf/1603.03417v1.pdf)
