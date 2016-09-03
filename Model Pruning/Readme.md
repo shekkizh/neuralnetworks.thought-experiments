@@ -23,7 +23,7 @@ Now if we can make the following assumptions the loss objective can be further s
  - Second assumption: OBD is done after convergence. This would mean that the first term which is essentailly what we use for training to reach a minima by gradient descent can be neglected.
  - Third assumption: Third and higher derivative terms can be neglected assuming quadratic loss objective. (last term)
 
-This leaves us with saliency of weights as ![equation_2](images/OBD_2.jpg)
+This leaves us with saliency of weights as ![equation_2](images/OBD_2.png)
 
 The above term is fairly easy to calculate with backprop and doesn't cost lot of compute resources.
 
