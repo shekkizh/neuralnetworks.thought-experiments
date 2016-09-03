@@ -18,9 +18,11 @@ A list to keep track of interesting papers I got the chance to read.
  - [Context Encoders: Feature Learning by Inpainting](http://arxiv.org/pdf/1604.07379v1.pdf)
  - [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://arxiv.org/pdf/1511.06434v2.pdf)
  - [Unsupervised Visual Representation Learning by Context Prediction](http://arxiv.org/pdf/1505.05192v3.pdf)
+ - [InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets](https://arxiv.org/pdf/1606.03657v1.pdf)
  - [Building High-level Features Using Large Scale Unsupervised Learning](https://arxiv.org/pdf/1112.6209.pdf)
   
 ## Miscellaneous 
+ - [Dynamic Capacity Networks](http://arxiv.org/pdf/1511.07838.pdf)
  - [Net2Net: Accelerating Learning via Knowledge Transfer](http://arxiv.org/pdf/1511.05641v4.pdf)
  - [Deep Networks with Stochastic Depth](http://arxiv.org/pdf/1603.09382v3.pdf)
  - [Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/pdf/1605.06211v1.pdf)
