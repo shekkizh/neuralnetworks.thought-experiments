@@ -11,6 +11,7 @@ Auto Encoder is a methodology which tries to learn a function f(**X**| **θ**) =
 Several improvements to the basic auto encoder are being studied and applied. These improvements are primarily enforced by adding additional constrains like sparsity on the latent dimension space (Sparsity auto encoders) or by defining different loss function to train the network on for e.g. by using Kullback Leibler divergence term in the loss we can train a network with strong distribution prior on the latent variables (Variational Auto encoder). 
 
 ![](./images/Autoencoder_structure.png)
+<sub>[Source: Wikipedia](https://en.wikipedia.org/wiki/Autoencoder#/media/File:Autoencoder_structure.png)<sub>
 
 ### Generative Adversarial Networks
 Generative adversarial networks are methods that are based on game theory. The idea is to have two networks
@@ -21,6 +22,7 @@ By jointly training these two networks to play a cat and mouse game we hope to a
 GAN are very unstable to train and so require careful selection of model activations and the model itself. The problem is mainly due to the fact that the optimization techniques used for training these networks are not meant for finding Nash equilibrium which is the ideal point where we want the networks to be at after training.
 
 ![](./images/GAN.jpg)
+<sub>[Source: Slideshare.net](http://www.slideshare.net/xavigiro/deep-learning-for-computer-vision-generative-models-and-adversarial-training-upc-2016)<sub>
 
 # Experiments
 **Simple AutoEncoder**
@@ -36,17 +38,17 @@ Variational Auto Encoders differ from other autoendoer in that they have strong 
 ![](./logs/MNIST_VAE_logs_1/MNIST_VAE_log.png)
 
 Observations on training VAE:
- - The loss objective in VAE is the sum of reconstruction loss and the KL divergence - this presents itself as a problem since during training reconstruction loss dominates the process. Trying to combine these losses in a weighted sum introduces a hyperparameter in the model.
- - The log variance activations tend to converge to zero even though from the above one wouldn't have expected this - Overfitting? Not sure.
- - The KL divergence is strictly positive but at times the training end up with a negative KL divergence loss. There should be a way to enforce this constrain in the network?!
+ - The loss objective in VAE is the sum of reconstruction loss and the KL divergence - this presents itself as a problem since during training reconstruction loss dominates the process. Trying to combine these losses in a weighted sum introduces a hyperparameter in the model. Also as was pointed by someone this would mean that we are no longer optimizing standard lower variance.
+ - The log variance activations tend to converge to zero even though from the above one wouldn't have expected this - Overfitting? So turns out this is expected as the KL divergence term encourages this very behavior as I expected. Another problem that was pointed out was a shortcoming in my implementation - ReLuing the mu and log var activation, an unnecessary constrain on mu and variance. Fixed implementaion results are as seen in the second graph. 
+ - The KL divergence is strictly positive but at times the training end up with a negative KL divergence loss. There should be a way to enforce this constrain in the network?! By the nature of optimization itself the non negativity of KL divergence, a negative value basically means there is a mistake on the training objective.
 
 Sample generated images:
-![](./logs/MNIST_VAE_logs_1/generated_1.png)     ![](./logs/MNIST_VAE_logs_1/generated_2.png)
+![](./logs/MNIST_VAE_logs_1/generated_1.png)     ![](./logs/MNIST_VAE_logs_1/generated_2.png)    ![](./logs/MNIST_VAE_logs_2/generated_3.png)     ![](./logs/MNIST_VAE_logs_2/generated_4.png)
 
 Activations on mean and log variance encoder:
 ![](./logs/MNIST_VAE_logs_1/mu_var_gradient.png)
+![](./logs/MNIST_VAE_logs_2/mu_logvar-gradient2.png)
  
-
 
 
 -----
@@ -58,4 +60,3 @@ References:
  1. Tutorial on Variational Auto Encoder by Carl Doersch 
  2. Generative Adversarial Nets by Goodfellow et.al.
  3. Unsupervised representation learning with deep convolutional generative adversarial networks by Radford et.al.
- 4. Images were borrowed from wikipedia, slideshare.net
