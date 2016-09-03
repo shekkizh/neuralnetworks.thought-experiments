@@ -25,4 +25,3 @@ Variables Perecent: 50, Test accuracy: 0.2058
 Variables Perecent: 40, Test accuracy: 0.2763
 Variables Perecent: 30, Test accuracy: 0.1959
 
-
