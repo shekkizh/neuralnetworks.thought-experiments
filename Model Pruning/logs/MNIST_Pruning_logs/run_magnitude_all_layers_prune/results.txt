@@ -1,0 +1,21 @@
+Variables Perecent: 100, Test accuracy: 0.9694
+Variables Perecent: 99, Test accuracy: 0.8553
+Variables Perecent: 98, Test accuracy: 0.6866
+Variables Perecent: 97, Test accuracy: 0.2822
+Variables Perecent: 96, Test accuracy: 0.1332
+Variables Perecent: 95, Test accuracy: 0.141
+Variables Perecent: 94, Test accuracy: 0.1241
+Variables Perecent: 93, Test accuracy: 0.1552
+Variables Perecent: 92, Test accuracy: 0.133
+Variables Perecent: 91, Test accuracy: 0.2088
+Variables Perecent: 90, Test accuracy: 0.1438
+Variables Perecent: 89, Test accuracy: 0.1135
+Variables Perecent: 88, Test accuracy: 0.1135
+Variables Perecent: 87, Test accuracy: 0.1135
+Variables Perecent: 86, Test accuracy: 0.1135
+Variables Perecent: 85, Test accuracy: 0.1135
+Variables Perecent: 84, Test accuracy: 0.1135
+Variables Perecent: 83, Test accuracy: 0.1135
+Variables Perecent: 82, Test accuracy: 0.1135
+Variables Perecent: 81, Test accuracy: 0.1135
+
