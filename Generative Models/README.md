@@ -49,7 +49,8 @@ Activations on mean and log variance encoder:
 ![](./logs/MNIST_VAE_logs_1/mu_var_gradient.png)
 ![](./logs/MNIST_VAE_logs_2/mu_logvar-gradient2.png)
  
-
+**Generative Adversarial Networks**
+GANs are such a pain to train in that they are very unstable and the training requires careful tuning of parameters - will mostly create separate notes on training GAN and it's results.
 
 -----
 Code for experiments available at: [TensorflowProjects/Unsupervised_Learning](https://github.com/shekkizh/TensorflowProjects/tree/master/Unsupervised_learning)
