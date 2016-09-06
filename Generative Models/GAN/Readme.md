@@ -16,7 +16,9 @@ For a basic introduction to generative models and GANs refer to my notes [here](
 ##Introduction
 
 ##Observations
-![](logs/discriminatorLoss.png)   ![](logs/discriminatorRealLoss.png)   ![](discriminatorFakeLoss.png)
+![](logs/discriminatorLoss.png)   
+
+![](logs/discriminatorRealLoss.png)   ![](logs/discriminatorFakeLoss.png)
 
 ![](logs/GeneratorLoss.png)
 
@@ -28,7 +30,7 @@ For a basic introduction to generative models and GANs refer to my notes [here](
 
 ![](logs/DiscriminatorFirstLayerFailed.png)   ![](logs/GeneratorFirstLayerFailed.png)
 
-![](DiscriminatorPredFailed.png)
+![](logs/DiscriminatorPredFailed.png)
 
 ##Results
 CelebA
