@@ -88,42 +88,42 @@ Flowers
 
 Sampling random points in latent space
 
-![](images/Visualizing Flowers/random visuals/0pred_image.tif)![](images/Visualizing Flowers/random visuals/1pred_image.tif)
-![](images/Visualizing Flowers/random visuals/2pred_image.tif)![](images/Visualizing Flowers/random visuals/3pred_image.tif)
-![](images/Visualizing Flowers/random visuals/4pred_image.tif)![](images/Visualizing Flowers/random visuals/5pred_image.tif)
-![](images/Visualizing Flowers/random visuals/6pred_image.tif)![](images/Visualizing Flowers/random visuals/7pred_image.tif)
-![](images/Visualizing Flowers/random visuals/9pred_image.tif)![](images/Visualizing Flowers/random visuals/8pred_image.tif)
-![](images/Visualizing Flowers/random visuals/10pred_image.tif)![](images/Visualizing Flowers/random visuals/11pred_image.tif)
-![](images/Visualizing Flowers/random visuals/12pred_image.tif)![](images/Visualizing Flowers/random visuals/13pred_image.tif)
-![](images/Visualizing Flowers/random visuals/14pred_image.tif)![](images/Visualizing Flowers/random visuals/15pred_image.tif)
-![](images/Visualizing Flowers/random visuals/16pred_image.tif)![](images/Visualizing Flowers/random visuals/17pred_image.tif)
-![](images/Visualizing Flowers/random visuals/18pred_image.tif)![](images/Visualizing Flowers/random visuals/19pred_image.tif)
+![](images/Visualizing Flowers/random visuals/0pred_image.png)![](images/Visualizing Flowers/random visuals/1pred_image.png)
+![](images/Visualizing Flowers/random visuals/2pred_image.png)![](images/Visualizing Flowers/random visuals/3pred_image.png)
+![](images/Visualizing Flowers/random visuals/4pred_image.png)![](images/Visualizing Flowers/random visuals/5pred_image.png)
+![](images/Visualizing Flowers/random visuals/6pred_image.png)![](images/Visualizing Flowers/random visuals/7pred_image.png)
+![](images/Visualizing Flowers/random visuals/9pred_image.png)![](images/Visualizing Flowers/random visuals/8pred_image.png)
+![](images/Visualizing Flowers/random visuals/10pred_image.png)![](images/Visualizing Flowers/random visuals/11pred_image.png)
+![](images/Visualizing Flowers/random visuals/12pred_image.png)![](images/Visualizing Flowers/random visuals/13pred_image.png)
+![](images/Visualizing Flowers/random visuals/14pred_image.png)![](images/Visualizing Flowers/random visuals/15pred_image.png)
+![](images/Visualizing Flowers/random visuals/16pred_image.png)![](images/Visualizing Flowers/random visuals/17pred_image.png)
+![](images/Visualizing Flowers/random visuals/18pred_image.png)![](images/Visualizing Flowers/random visuals/19pred_image.png)
 
 Now lets try taking a random walk along just one hidden space dimension.
 
 Dimension 25
 
-![](images/Visualizing Flowers/25d/0pred_image.tif)![](images/Visualizing Flowers/25d/1pred_image.tif)
-![](images/Visualizing Flowers/25d/2pred_image.tif)![](images/Visualizing Flowers/25d/3pred_image.tif)
-![](images/Visualizing Flowers/25d/4pred_image.tif)![](images/Visualizing Flowers/25d/5pred_image.tif)
-![](images/Visualizing Flowers/25d/6pred_image.tif)![](images/Visualizing Flowers/25d/7pred_image.tif)
-![](images/Visualizing Flowers/25d/9pred_image.tif)
+![](images/Visualizing Flowers/25d/0pred_image.png)![](images/Visualizing Flowers/25d/1pred_image.png)
+![](images/Visualizing Flowers/25d/2pred_image.png)![](images/Visualizing Flowers/25d/3pred_image.png)
+![](images/Visualizing Flowers/25d/4pred_image.png)![](images/Visualizing Flowers/25d/5pred_image.png)
+![](images/Visualizing Flowers/25d/6pred_image.png)![](images/Visualizing Flowers/25d/7pred_image.png)
+![](images/Visualizing Flowers/25d/9pred_image.png)
 
 Dimension 50
 
-![](images/Visualizing Flowers/50d/0pred_image.tif)![](images/Visualizing Flowers/50d/1pred_image.tif)
-![](images/Visualizing Flowers/50d/2pred_image.tif)![](images/Visualizing Flowers/50d/3pred_image.tif)
-![](images/Visualizing Flowers/50d/4pred_image.tif)![](images/Visualizing Flowers/50d/5pred_image.tif)
-![](images/Visualizing Flowers/50d/6pred_image.tif)![](images/Visualizing Flowers/50d/7pred_image.tif)
-![](images/Visualizing Flowers/50d/9pred_image.tif)
+![](images/Visualizing Flowers/50d/0pred_image.png)![](images/Visualizing Flowers/50d/1pred_image.png)
+![](images/Visualizing Flowers/50d/2pred_image.png)![](images/Visualizing Flowers/50d/3pred_image.png)
+![](images/Visualizing Flowers/50d/4pred_image.png)![](images/Visualizing Flowers/50d/5pred_image.png)
+![](images/Visualizing Flowers/50d/6pred_image.png)![](images/Visualizing Flowers/50d/7pred_image.png)
+![](images/Visualizing Flowers/50d/9pred_image.png)
 
 Dimension 75
 
-![](images/Visualizing Flowers/75d/0pred_image.tif)![](images/Visualizing Flowers/75d/1pred_image.tif)
-![](images/Visualizing Flowers/75d/2pred_image.tif)![](images/Visualizing Flowers/75d/3pred_image.tif)
-![](images/Visualizing Flowers/75d/4pred_image.tif)![](images/Visualizing Flowers/75d/5pred_image.tif)
-![](images/Visualizing Flowers/75d/6pred_image.tif)![](images/Visualizing Flowers/75d/7pred_image.tif)
-![](images/Visualizing Flowers/75d/9pred_image.tif)
+![](images/Visualizing Flowers/75d/0pred_image.png)![](images/Visualizing Flowers/75d/1pred_image.png)
+![](images/Visualizing Flowers/75d/2pred_image.png)![](images/Visualizing Flowers/75d/3pred_image.png)
+![](images/Visualizing Flowers/75d/4pred_image.png)![](images/Visualizing Flowers/75d/5pred_image.png)
+![](images/Visualizing Flowers/75d/6pred_image.png)![](images/Visualizing Flowers/75d/7pred_image.png)
+![](images/Visualizing Flowers/75d/9pred_image.png)
 
 From what I was able to observe it seems like the samples from latent space when making random walks generate different image depending on whether we are on the negative or positive side of the dimension. This can be seen from the above results as well.
 
