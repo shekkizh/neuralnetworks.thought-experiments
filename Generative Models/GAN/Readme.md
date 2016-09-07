@@ -98,6 +98,16 @@ Sampling random points in latent space
 ![](images/Visualizing Flowers/random visuals/14pred_image.png)![](images/Visualizing Flowers/random visuals/15pred_image.png)
 ![](images/Visualizing Flowers/random visuals/16pred_image.png)![](images/Visualizing Flowers/random visuals/17pred_image.png)
 ![](images/Visualizing Flowers/random visuals/18pred_image.png)![](images/Visualizing Flowers/random visuals/19pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/0pred_image.png)![](images/Visualizing Flowers/random visuals/run2/1pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/2pred_image.png)![](images/Visualizing Flowers/random visuals/run2/3pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/4pred_image.png)![](images/Visualizing Flowers/random visuals/run2/5pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/6pred_image.png)![](images/Visualizing Flowers/random visuals/run2/7pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/9pred_image.png)![](images/Visualizing Flowers/random visuals/run2/8pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/10pred_image.png)![](images/Visualizing Flowers/random visuals/run2/11pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/12pred_image.png)![](images/Visualizing Flowers/random visuals/run2/13pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/14pred_image.png)![](images/Visualizing Flowers/random visuals/run2/15pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/16pred_image.png)![](images/Visualizing Flowers/random visuals/run2/17pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/18pred_image.png)![](images/Visualizing Flowers/random visuals/run2/19pred_image.png)
 
 Now lets try taking a random walk along just one hidden space dimension.
 
