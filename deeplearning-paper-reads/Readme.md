@@ -13,7 +13,8 @@ A list to keep track of interesting papers I got the chance to read. The list is
  - [Deep Residual Learning for Image Recognition](https://arxiv.org/pdf/1512.03385v1.pdf)
  - [Identity Mappings in Deep Residual Networks](https://arxiv.org/pdf/1603.05027.pdf)
  
-## Unsupervised/ Semi Supervised Learning 
+## Unsupervised/ Semi Supervised Learning
+ - [Energy Based Generative Adversarial Networks](http://arxiv.org/pdf/1609.03126v1.pdf)
  - [Tutorial on Variational Autoencoders](http://arxiv.org/pdf/1606.05908v2.pdf)
  - [Improved Techniques for Training GANs](http://arxiv.org/pdf/1606.03498v1.pdf)
  - [Semi-Supervised Learning with Generative Adversarial Networks](http://arxiv.org/pdf/1606.01583v1.pdf)
@@ -28,8 +29,8 @@ A list to keep track of interesting papers I got the chance to read. The list is
   
 ## Miscellaneous 
 **Theory**
-
  - [Mollifying Networks](http://arxiv.org/pdf/1608.04980v1.pdf)
+ - [Noisy Activation Functions](https://arxiv.org/pdf/1603.00391.pdf)
  - [Dynamic Capacity Networks](http://arxiv.org/pdf/1511.07838.pdf)
  - [Net2Net: Accelerating Learning via Knowledge Transfer](http://arxiv.org/pdf/1511.05641v4.pdf)
  - [Deep Networks with Stochastic Depth](http://arxiv.org/pdf/1603.09382v3.pdf)
