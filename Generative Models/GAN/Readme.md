@@ -160,6 +160,11 @@ Dimension 75
 
 From what I was able to observe it seems like the samples from latent space when making random walks generate different image depending on whether we are on the negative or positive side of the dimension. This can be seen from the above results as well.
 
+*Edit*: 
+ A feedback I got on the post for the above statement was that while walking the latent space can get you from one image to another, there can be significant semantic relationships between those images (e.g. the same subject under a change of lighting, a rotation, etc.). Some dimensions can encode information about the geometry of the "scene", and others may encode information about how that "scene" is rendered. Of course, the features are anonymous, so some finessing and reverse-engineering is needed to figure that out. (credits to reddit u/Ameren)
+
+I agree completely with the comment and do believe the relationships captured by the latent space do get complicated and less interpretive - I was just trying to point out the interpretation for the dimensions show above.
+
 ----
 Code for DCGAN in tensorflow can be found at [TensorflowProjects/Unsupervised_learning](https://github.com/shekkizh/TensorflowProjects/blob/master/Unsupervised_learning/)
 
