@@ -14,6 +14,7 @@ A list to keep track of interesting papers I got the chance to read. The list is
  - [Identity Mappings in Deep Residual Networks](https://arxiv.org/pdf/1603.05027.pdf)
  
 ## Unsupervised/ Semi Supervised Learning
+ - [Learning Aligned Cross-Modal Representations from Weakly Aligned Data](http://arxiv.org/pdf/1607.07295v1.pdf)
  - [Energy Based Generative Adversarial Networks](http://arxiv.org/pdf/1609.03126v1.pdf)
  - [Tutorial on Variational Autoencoders](http://arxiv.org/pdf/1606.05908v2.pdf)
  - [Improved Techniques for Training GANs](http://arxiv.org/pdf/1606.03498v1.pdf)
@@ -40,7 +41,8 @@ A list to keep track of interesting papers I got the chance to read. The list is
  - [Optimal Brain Damage](http://yann.lecun.com/exdb/publis/pdf/lecun-90b.pdf)
 
 **Applications**
-
+- [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](http://arxiv.org/pdf/1609.04802v2.pdf)
+- [Generative Visual Manipulation on the Natural Image Manifold](http://arxiv.org/pdf/1609.03552v2.pdf)
 - [Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/pdf/1605.06211v1.pdf)
 - [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://arxiv.org/pdf/1603.08155v1.pdf)
 - [Texture Networks: Feed-forward Synthesis of Textures and Stylized Images](http://arxiv.org/pdf/1603.03417v1.pdf)
