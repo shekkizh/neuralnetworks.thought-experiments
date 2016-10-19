@@ -43,6 +43,7 @@ A list to keep track of interesting papers I got the chance to read. The list is
 **Applications**
 - [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](http://arxiv.org/pdf/1609.04802v2.pdf)
 - [Generative Visual Manipulation on the Natural Image Manifold](http://arxiv.org/pdf/1609.03552v2.pdf)
+- [PixelNet: Towards a General Pixel-Level Architecture](https://arxiv.org/pdf/1609.06694.pdf)
 - [Fully Convolutional Networks for Semantic Segmentation](http://arxiv.org/pdf/1605.06211v1.pdf)
 - [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](http://arxiv.org/pdf/1603.08155v1.pdf)
 - [Texture Networks: Feed-forward Synthesis of Textures and Stylized Images](http://arxiv.org/pdf/1603.03417v1.pdf)
