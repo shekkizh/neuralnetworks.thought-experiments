@@ -31,6 +31,7 @@ A list to keep track of interesting papers I got the chance to read. The list is
 ## Miscellaneous 
 **Theory**
  - [Mollifying Networks](http://arxiv.org/pdf/1608.04980v1.pdf)
+ - [Unsupervised Domain Adaptation by Backpropagation](https://cs.stanford.edu/~jhoffman/papers/Hoffman_ICLR2013.pdf)
  - [Noisy Activation Functions](https://arxiv.org/pdf/1603.00391.pdf)
  - [Dynamic Capacity Networks](http://arxiv.org/pdf/1511.07838.pdf)
  - [Net2Net: Accelerating Learning via Knowledge Transfer](http://arxiv.org/pdf/1511.05641v4.pdf)
