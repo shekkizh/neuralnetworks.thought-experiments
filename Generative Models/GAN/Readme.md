@@ -1,4 +1,4 @@
-##Difficulties training a Generative Adversarial Networks 
+##Difficulties training a Generative Adversarial Network 
 So GANs are like the happening thing in Deep learning right now (I mean even Yann Lecun said so right!). But this writeup is not about how awesome GANs are (which they are :punch:), 
 this is going to be more on how freaking difficult it is to train these models. I believe GANs might be slightly ill posed as a problem for training with gradient descent. 
 Took me quite some time to figure out why the hell my model was not working at all - hoping to throw some light for those folks who might fall in the same pit while trying to implement GANs. 
@@ -88,26 +88,49 @@ Flowers
 
 Sampling random points in latent space
 
-![](images/Visualizing Flowers/random visuals/0pred_image.png)![](images/Visualizing Flowers/random visuals/1pred_image.png)
-![](images/Visualizing Flowers/random visuals/2pred_image.png)![](images/Visualizing Flowers/random visuals/3pred_image.png)
-![](images/Visualizing Flowers/random visuals/4pred_image.png)![](images/Visualizing Flowers/random visuals/5pred_image.png)
-![](images/Visualizing Flowers/random visuals/6pred_image.png)![](images/Visualizing Flowers/random visuals/7pred_image.png)
-![](images/Visualizing Flowers/random visuals/9pred_image.png)![](images/Visualizing Flowers/random visuals/8pred_image.png)
-![](images/Visualizing Flowers/random visuals/10pred_image.png)![](images/Visualizing Flowers/random visuals/11pred_image.png)
-![](images/Visualizing Flowers/random visuals/12pred_image.png)![](images/Visualizing Flowers/random visuals/13pred_image.png)
-![](images/Visualizing Flowers/random visuals/14pred_image.png)![](images/Visualizing Flowers/random visuals/15pred_image.png)
-![](images/Visualizing Flowers/random visuals/16pred_image.png)![](images/Visualizing Flowers/random visuals/17pred_image.png)
-![](images/Visualizing Flowers/random visuals/18pred_image.png)![](images/Visualizing Flowers/random visuals/19pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/0pred_image.png)![](images/Visualizing Flowers/random visuals/run2/1pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/2pred_image.png)![](images/Visualizing Flowers/random visuals/run2/3pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/4pred_image.png)![](images/Visualizing Flowers/random visuals/run2/5pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/6pred_image.png)![](images/Visualizing Flowers/random visuals/run2/7pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/9pred_image.png)![](images/Visualizing Flowers/random visuals/run2/8pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/10pred_image.png)![](images/Visualizing Flowers/random visuals/run2/11pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/12pred_image.png)![](images/Visualizing Flowers/random visuals/run2/13pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/14pred_image.png)![](images/Visualizing Flowers/random visuals/run2/15pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/16pred_image.png)![](images/Visualizing Flowers/random visuals/run2/17pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/18pred_image.png)![](images/Visualizing Flowers/random visuals/run2/19pred_image.png)
+![](images/Visualizing Flowers/random visuals/0pred_image.png)
+![](images/Visualizing Flowers/random visuals/1pred_image.png)
+![](images/Visualizing Flowers/random visuals/2pred_image.png)
+![](images/Visualizing Flowers/random visuals/3pred_image.png)
+![](images/Visualizing Flowers/random visuals/4pred_image.png)
+![](images/Visualizing Flowers/random visuals/5pred_image.png)
+![](images/Visualizing Flowers/random visuals/6pred_image.png)
+![](images/Visualizing Flowers/random visuals/7pred_image.png)
+![](images/Visualizing Flowers/random visuals/9pred_image.png)
+![](images/Visualizing Flowers/random visuals/8pred_image.png)
+
+![](images/Visualizing Flowers/random visuals/10pred_image.png)
+![](images/Visualizing Flowers/random visuals/11pred_image.png)
+![](images/Visualizing Flowers/random visuals/12pred_image.png)
+![](images/Visualizing Flowers/random visuals/13pred_image.png)
+![](images/Visualizing Flowers/random visuals/14pred_image.png)
+![](images/Visualizing Flowers/random visuals/15pred_image.png)
+![](images/Visualizing Flowers/random visuals/16pred_image.png)
+![](images/Visualizing Flowers/random visuals/17pred_image.png)
+![](images/Visualizing Flowers/random visuals/18pred_image.png)
+![](images/Visualizing Flowers/random visuals/19pred_image.png)
+
+![](images/Visualizing Flowers/random visuals/run2/0pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/1pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/2pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/3pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/4pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/5pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/6pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/7pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/9pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/8pred_image.png)
+
+![](images/Visualizing Flowers/random visuals/run2/10pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/11pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/12pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/13pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/14pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/15pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/16pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/17pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/18pred_image.png)
+![](images/Visualizing Flowers/random visuals/run2/19pred_image.png)
 
 Now lets try taking a random walk along just one hidden space dimension.
 
@@ -136,6 +159,11 @@ Dimension 75
 ![](images/Visualizing Flowers/75d/9pred_image.png)
 
 From what I was able to observe it seems like the samples from latent space when making random walks generate different image depending on whether we are on the negative or positive side of the dimension. This can be seen from the above results as well.
+
+*Edit*: 
+ A feedback I got on the post for the above statement was that while walking the latent space can get you from one image to another, there can be significant semantic relationships between those images (e.g. the same subject under a change of lighting, a rotation, etc.). Some dimensions can encode information about the geometry of the "scene", and others may encode information about how that "scene" is rendered. Of course, the features are anonymous, so some finessing and reverse-engineering is needed to figure that out. (credits to reddit u/Ameren)
+
+I agree completely with the comment and do believe the relationships captured by the latent space do get complicated and less interpretive - I was just trying to point out the interpretation for the dimensions show above.
 
 ----
 Code for DCGAN in tensorflow can be found at [TensorflowProjects/Unsupervised_learning](https://github.com/shekkizh/TensorflowProjects/blob/master/Unsupervised_learning/)

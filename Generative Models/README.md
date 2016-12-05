@@ -55,7 +55,7 @@ Activations on mean and log variance encoder:
  
 **Generative Adversarial Networks**
 
-GANs are such a pain to train in that they are very unstable and the training requires careful tuning of parameters - will mostly create separate notes on training GAN and it's results.
+GANs are such a pain to train in that they are very unstable and the training requires careful tuning of parameters - will mostly create separate notes on training GAN and it's results. And I did - notes can be found here: [link](./GAN/Readme.md)
 
 -----
 Code for experiments available at: [TensorflowProjects/Unsupervised_Learning](https://github.com/shekkizh/TensorflowProjects/tree/master/Unsupervised_learning)
