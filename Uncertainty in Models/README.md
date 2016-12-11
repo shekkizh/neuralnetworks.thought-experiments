@@ -9,7 +9,7 @@ Paper links: Dropout as a Bayesian Approximation[appendix](https://arxiv.org/abs
 ##Results
 The results below are obtained on MNIST with dropout in fully connected layer. The red line corresponds to inference with no dropout at test time. The blue dotted lines correspond to the mean and variance for inference over 100 iterations. 
 
-The model architecture for the below results is 2 conv layers - fc layer with dropout - softmax layer. Training was done with dropout probability 0.1 - This means that at test time if we have the same dropout probability, the model should be fairly confident of it's inference. This cab be seen in the below result.
+The model architecture for the below results is 2 conv layers - fc layer with dropout - softmax layer. Training was done with dropout probability 0.1 - This means that at test time if we have the same dropout probability, the model should be fairly confident of it's inference. This can be seen in the below result.
 
 ![](images/number6_test.png)
 
