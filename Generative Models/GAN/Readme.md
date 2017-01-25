@@ -60,7 +60,7 @@ Key takeaways to train a successful GAN:
  - Initialization - Can't stress this enough. I was not able to get any result with xavier initialization or with random normal intialization of deviation 0.2. Looking at the scale of gradients it just made sense to start with much smaller weights so that generator can start moving in the right direction from the beginning. Ended up using weights with random normal initialization with deviation of 0.02.
  - Batch normalization - These are supposed to help gradient flow but an improper decay or slow decay on the parameters used in batch norm is again going to hinder gradient flow. 0.9 seemed like the sweet spot.
  - Not sure how important this could be but I found that having equal number of layers in both generator and discriminator and having the number of weights at a ratio (approx 0.5) that doesn't make one model lag was helpful for training.
- - As for the dataset having inputs that similar traits to some extent seemed important - What I mean is trying to create varied outputs like cats and buses without a doing a conditional generation failed eventually.
+ - As for the dataset having inputs that similar traits to some extent seemed important - What I mean is trying to create varied outputs like cats and buses without doing a conditional generation is more complicated in terms of training.
  - For experimental purposes start with a small dataset and see if the gradients and initializations are in the right place for the model to train.
 
 ##Results
@@ -163,7 +163,7 @@ From what I was able to observe it seems like the samples from latent space when
 *Edit*: 
  A feedback I got on the post for the above statement was that while walking the latent space can get you from one image to another, there can be significant semantic relationships between those images (e.g. the same subject under a change of lighting, a rotation, etc.). Some dimensions can encode information about the geometry of the "scene", and others may encode information about how that "scene" is rendered. Of course, the features are anonymous, so some finessing and reverse-engineering is needed to figure that out. (credits to reddit u/Ameren)
 
-I agree completely with the comment and do believe the relationships captured by the latent space do get complicated and less interpretive - I was just trying to point out the interpretation for the dimensions show above.
+I agree completely with the comment and do believe the relationships captured by the latent space do get complicated and less interpretive - I was just trying to point out the interpretation for the dimensions shown above.
 
 ----
 Code for DCGAN in tensorflow can be found at [TensorflowProjects/Unsupervised_learning](https://github.com/shekkizh/TensorflowProjects/blob/master/Unsupervised_learning/)
