@@ -32,7 +32,7 @@ Another practical thing that is done while training GAN is to stall one network 
 
 This is an idea proposed in [Improved techniques for training GANs](https://arxiv.org/pdf/1606.03498v1.pdf) paper. The idea is to use the features at the intermediate layers in the discriminator to match for real and fake images and make this a supervisory signal to train the generator. I found training only based on this feature matching metric ineffective by itself contrary to what is mentioned in the paper - the discriminator attains almost zero loss right at the beginning when I tried doing this. Instead a combination of both the feature matching loss and the discriminator output loss for generator was quite effective. I tried setting up this combination loss such that initially the discriminator output loss for generator dominates, this avoided the discriminator loss to reach zero in the early stages of the training.
 
-##Observations
+## Observations
 The model used for the results below consists of 4 layer network for each generator and discriminator with batch norm. Leaky Relu's were used for discriminator with a sigmoid activation at the output layer while Relu's were used for generator with a tanh for the final layer. The filter depth was changed in multiples of 2. Images were resized to size of 64x64. Results below are for 15epochs of training on a succesful attempt. Latent space dimension was set to 100.
 
 ![](logs/discriminatorLoss.png) 
@@ -88,75 +88,75 @@ Flowers
 
 Sampling random points in latent space
 
-![](images/Visualizing Flowers/random visuals/0pred_image.png)
-![](images/Visualizing Flowers/random visuals/1pred_image.png)
-![](images/Visualizing Flowers/random visuals/2pred_image.png)
-![](images/Visualizing Flowers/random visuals/3pred_image.png)
-![](images/Visualizing Flowers/random visuals/4pred_image.png)
-![](images/Visualizing Flowers/random visuals/5pred_image.png)
-![](images/Visualizing Flowers/random visuals/6pred_image.png)
-![](images/Visualizing Flowers/random visuals/7pred_image.png)
-![](images/Visualizing Flowers/random visuals/9pred_image.png)
-![](images/Visualizing Flowers/random visuals/8pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/0pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/1pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/2pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/3pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/4pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/5pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/6pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/7pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/9pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/8pred_image.png)
 
-![](images/Visualizing Flowers/random visuals/10pred_image.png)
-![](images/Visualizing Flowers/random visuals/11pred_image.png)
-![](images/Visualizing Flowers/random visuals/12pred_image.png)
-![](images/Visualizing Flowers/random visuals/13pred_image.png)
-![](images/Visualizing Flowers/random visuals/14pred_image.png)
-![](images/Visualizing Flowers/random visuals/15pred_image.png)
-![](images/Visualizing Flowers/random visuals/16pred_image.png)
-![](images/Visualizing Flowers/random visuals/17pred_image.png)
-![](images/Visualizing Flowers/random visuals/18pred_image.png)
-![](images/Visualizing Flowers/random visuals/19pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/10pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/11pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/12pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/13pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/14pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/15pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/16pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/17pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/18pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/19pred_image.png)
 
-![](images/Visualizing Flowers/random visuals/run2/0pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/1pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/2pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/3pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/4pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/5pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/6pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/7pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/9pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/8pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/0pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/1pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/2pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/3pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/4pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/5pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/6pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/7pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/9pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/8pred_image.png)
 
-![](images/Visualizing Flowers/random visuals/run2/10pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/11pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/12pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/13pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/14pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/15pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/16pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/17pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/18pred_image.png)
-![](images/Visualizing Flowers/random visuals/run2/19pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/10pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/11pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/12pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/13pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/14pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/15pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/16pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/17pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/18pred_image.png)
+![](images/Visualizing_Flowers/random_visuals/run2/19pred_image.png)
 
 Now lets try taking a random walk along just one hidden space dimension.
 
 Dimension 25
 
-![](images/Visualizing Flowers/25d/0pred_image.png)![](images/Visualizing Flowers/25d/1pred_image.png)
-![](images/Visualizing Flowers/25d/2pred_image.png)![](images/Visualizing Flowers/25d/3pred_image.png)
-![](images/Visualizing Flowers/25d/4pred_image.png)![](images/Visualizing Flowers/25d/5pred_image.png)
-![](images/Visualizing Flowers/25d/6pred_image.png)![](images/Visualizing Flowers/25d/7pred_image.png)
-![](images/Visualizing Flowers/25d/9pred_image.png)
+![](images/Visualizing_Flowers/25d/0pred_image.png)![](images/Visualizing_Flowers/25d/1pred_image.png)
+![](images/Visualizing_Flowers/25d/2pred_image.png)![](images/Visualizing_Flowers/25d/3pred_image.png)
+![](images/Visualizing_Flowers/25d/4pred_image.png)![](images/Visualizing_Flowers/25d/5pred_image.png)
+![](images/Visualizing_Flowers/25d/6pred_image.png)![](images/Visualizing_Flowers/25d/7pred_image.png)
+![](images/Visualizing_Flowers/25d/9pred_image.png)
 
 Dimension 50
 
-![](images/Visualizing Flowers/50d/0pred_image.png)![](images/Visualizing Flowers/50d/1pred_image.png)
-![](images/Visualizing Flowers/50d/2pred_image.png)![](images/Visualizing Flowers/50d/3pred_image.png)
-![](images/Visualizing Flowers/50d/4pred_image.png)![](images/Visualizing Flowers/50d/5pred_image.png)
-![](images/Visualizing Flowers/50d/6pred_image.png)![](images/Visualizing Flowers/50d/7pred_image.png)
-![](images/Visualizing Flowers/50d/9pred_image.png)
+![](images/Visualizing_Flowers/50d/0pred_image.png)![](images/Visualizing_Flowers/50d/1pred_image.png)
+![](images/Visualizing_Flowers/50d/2pred_image.png)![](images/Visualizing_Flowers/50d/3pred_image.png)
+![](images/Visualizing_Flowers/50d/4pred_image.png)![](images/Visualizing_Flowers/50d/5pred_image.png)
+![](images/Visualizing_Flowers/50d/6pred_image.png)![](images/Visualizing_Flowers/50d/7pred_image.png)
+![](images/Visualizing_Flowers/50d/9pred_image.png)
 
 Dimension 75
 
-![](images/Visualizing Flowers/75d/0pred_image.png)![](images/Visualizing Flowers/75d/1pred_image.png)
-![](images/Visualizing Flowers/75d/2pred_image.png)![](images/Visualizing Flowers/75d/3pred_image.png)
-![](images/Visualizing Flowers/75d/4pred_image.png)![](images/Visualizing Flowers/75d/5pred_image.png)
-![](images/Visualizing Flowers/75d/6pred_image.png)![](images/Visualizing Flowers/75d/7pred_image.png)
-![](images/Visualizing Flowers/75d/9pred_image.png)
+![](images/Visualizing_Flowers/75d/0pred_image.png)![](images/Visualizing_Flowers/75d/1pred_image.png)
+![](images/Visualizing_Flowers/75d/2pred_image.png)![](images/Visualizing_Flowers/75d/3pred_image.png)
+![](images/Visualizing_Flowers/75d/4pred_image.png)![](images/Visualizing_Flowers/75d/5pred_image.png)
+![](images/Visualizing_Flowers/75d/6pred_image.png)![](images/Visualizing_Flowers/75d/7pred_image.png)
+![](images/Visualizing_Flowers/75d/9pred_image.png)
 
 From what I was able to observe it seems like the samples from latent space when making random walks generate different image depending on whether we are on the negative or positive side of the dimension. This can be seen from the above results as well.
 
