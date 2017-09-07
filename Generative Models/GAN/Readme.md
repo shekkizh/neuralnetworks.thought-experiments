@@ -1,4 +1,4 @@
-##Difficulties training a Generative Adversarial Network 
+## Difficulties training a Generative Adversarial Network 
 So GANs are like the happening thing in Deep learning right now (I mean even Yann Lecun said so right!). But this writeup is not about how awesome GANs are (which they are :punch:), 
 this is going to be more on how freaking difficult it is to train these models. I believe GANs might be slightly ill posed as a problem for training with gradient descent. 
 Took me quite some time to figure out why the hell my model was not working at all - hoping to throw some light for those folks who might fall in the same pit while trying to implement GANs. 
@@ -10,7 +10,7 @@ For a basic introduction to generative models and GANs refer to my notes [here](
 3. [Results](#results)
 4. [References and Useful links](#references-and-useful-links)
 
-##Introduction
+## Introduction
 **Setup**
 
 The basic setup of GAN is two networks **G(z)** and **D(z)** trying to race against each other and reach an optimum more specifically a Nash equilibrium. The definition of Nash equilibrium as per wikipedia is
@@ -63,7 +63,7 @@ Key takeaways to train a successful GAN:
  - As for the dataset having inputs that similar traits to some extent seemed important - What I mean is trying to create varied outputs like cats and buses without doing a conditional generation is more complicated in terms of training.
  - For experimental purposes start with a small dataset and see if the gradients and initializations are in the right place for the model to train.
 
-##Results
+## Results
 CelebA
 
 ![](images/GAN_Faces/epoch1_sample1.png)![](images/GAN_Faces/epoch1_sample2.png)![](images/GAN_Faces/epoch1_sample3.png)
@@ -170,7 +170,7 @@ Code for DCGAN in tensorflow can be found at [TensorflowProjects/Unsupervised_le
 
 As always let me know if you have comments or ideas. :v: :beers:
 
-##References and Useful links
+## References and Useful links
 1. [Newmu/dcgan_code](https://github.com/Newmu/dcgan_code)
 2. [carpedm20/DCGAN-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow)
 3. [Soumith's eyescream blog post](http://soumith.ch/eyescream/)
