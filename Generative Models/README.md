@@ -1,4 +1,4 @@
-#Generative Models
+# Generative Models
 1. [Introduction](#introduction)
 2. [Experiments](#experiments)
 
